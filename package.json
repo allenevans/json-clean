@@ -1,0 +1,35 @@
+{
+  "name": "json-clean",
+  "version": "1.0.0",
+  "description": "Remove invalid characters and format json files",
+  "main": "json-clean.js",
+  "scripts": {
+    "start": "node json-clean-cli.js --help"
+  },
+  "author": "Allen Evans",
+  "repository": "https://github.com/allenevans/json-clean.git",
+  "license": "MIT",
+  "dependencies": {
+    "colors": "1.1.2",
+    "commander": "2.9.0",
+    "glob": "7.1.0"
+  },
+  "keywords": [
+    "BOM",
+    "json",
+    "pretify",
+    "clean",
+    "invalid characters"
+  ],
+  "bin": {
+    "json-clean": "./json-clean-cli.js"
+  },
+  "files": [
+    "filterCharacter.js",
+    "json-clean-cli.js"
+  ],
+  "preferGlobal": true,
+  "engines": {
+    "node": ">=6.0.0"
+  }
+}
